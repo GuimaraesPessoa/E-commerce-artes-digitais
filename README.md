@@ -8,7 +8,34 @@ Aplicação web de comércio eletrônico voltada para a venda e licenciamento de
 
 ## Tecnologias
 
-Em desenvolvimento.
+## 🛠️ Tecnologias
+
+### Frontend
+- React + TypeScript
+- Vite
+- Tailwind CSS
+
+### Backend
+- Node.js + Express
+- TypeScript
+
+### Banco de dados
+- PostgreSQL
+- Prisma ORM
+
+### Autenticação e validação
+- JWT
+- bcrypt
+- Zod
+
+### Integrações
+- Mercado Pago — pagamentos
+- Cloudinary — armazenamento de imagens
+
+### Ferramentas
+- Git + GitHub
+- Postman
+
 
 ## Estrutura
 
