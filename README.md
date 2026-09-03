@@ -1,10 +1,10 @@
 # E-commerce de Artes Digitais
 
-Projeto desenvolvido para a disciplina de Programacao Web.
+Projeto desenvolvido para a disciplina de Programação Web.
 
 ## Sobre o projeto
 
-Aplicacao web de comercio eletronico voltada para a venda e licenciamento de artes digitais para utilizacao em roupas, banners, logotipos, publicidade e outros materiais graficos.
+Aplicação web de comércio eletrônico voltada para a venda e licenciamento de artes digitais para utilização em roupas, banners, logotipos, publicidade e outros materiais gráficos.
 
 ## Tecnologias
 
@@ -12,7 +12,7 @@ Em desenvolvimento.
 
 ## Estrutura
 
-- `frontend/` - Interface da aplicacao
-- `backend/` - Logica e API da aplicacao
+- `frontend/` - Interface da aplicação
+- `backend/` - Logica e API da aplicação
 - `database/` - Banco de dados
-- `docs/` - Documentacao do projeto
+- `docs/` - Documentação do projeto
