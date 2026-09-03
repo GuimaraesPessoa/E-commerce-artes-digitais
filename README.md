@@ -6,8 +6,6 @@ Projeto desenvolvido para a disciplina de Programação Web.
 
 Aplicação web de comércio eletrônico voltada para a venda e licenciamento de artes digitais para utilização em roupas, banners, logotipos, publicidade e outros materiais gráficos.
 
-## Tecnologias
-
 ## 🛠️ Tecnologias
 
 ### Frontend
@@ -35,7 +33,6 @@ Aplicação web de comércio eletrônico voltada para a venda e licenciamento de
 ### Ferramentas
 - Git + GitHub
 - Postman
-
 
 ## Estrutura
 
