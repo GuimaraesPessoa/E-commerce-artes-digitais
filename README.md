@@ -1,42 +1,64 @@
-# E-commerce de Artes Digitais
+# 🎨 E-commerce de Artes Digitais
 
-Projeto desenvolvido para a disciplina de Programação Web.
+> 🛒 Plataforma de comércio eletrônico para venda e licenciamento de artes digitais.
 
-## Sobre o projeto
+Projeto desenvolvido para a disciplina de **Programação Web**, com foco na construção de uma aplicação web completa, desde a interface até a API e o banco de dados.
 
-Aplicação web de comércio eletrônico voltada para a venda e licenciamento de artes digitais para utilização em roupas, banners, logotipos, publicidade e outros materiais gráficos.
+---
+
+## 📌 Sobre o projeto
+
+O **E-commerce de Artes Digitais** é uma aplicação web voltada para a **venda e licenciamento de artes digitais**, permitindo sua utilização em:
+
+- 👕 Roupas
+- 🖼️ Banners
+- 🎯 Logotipos
+- 📢 Publicidade
+- 🎨 Outros materiais gráficos
+
+---
 
 ## 🛠️ Tecnologias
 
-### Frontend
-- React + TypeScript
-- Vite
-- Tailwind CSS
+### 🎨 Frontend
 
-### Backend
-- Node.js + Express
-- TypeScript
+- ⚛️ React + TypeScript
+- ⚡ Vite
+- 🎨 Tailwind CSS
 
-### Banco de dados
-- PostgreSQL
-- Prisma ORM
+### ⚙️ Backend
 
-### Autenticação e validação
-- JWT
-- bcrypt
-- Zod
+- 🟢 Node.js + Express
+- 📘 TypeScript
 
-### Integrações
-- Mercado Pago — pagamentos
-- Cloudinary — armazenamento de imagens
+### 🗄️ Banco de Dados
 
-### Ferramentas
-- Git + GitHub
-- Postman
+- 🐘 PostgreSQL
+- 🔷 Prisma ORM
 
-## Estrutura
+### 🔐 Autenticação & Validação
 
-- `frontend/` - Interface da aplicação
-- `backend/` - Logica e API da aplicação
-- `database/` - Banco de dados
-- `docs/` - Documentação do projeto
+- 🔑 JWT
+- 🔒 bcrypt
+- ✅ Zod
+
+### 🔗 Integrações
+
+- 💳 Mercado Pago — pagamentos
+- ☁️ Cloudinary — armazenamento de imagens
+
+### 🔧 Ferramentas
+
+- 🐙 Git + GitHub
+- 📮 Postman
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+📦 e-commerce-artes-digitais
+ ├── 🎨 frontend/     → Interface da aplicação
+ ├── ⚙️ backend/      → Lógica e API da aplicação
+ ├── 🗄️ database/     → Banco de dados
+ └── 📚 docs/         → Documentação do projeto
