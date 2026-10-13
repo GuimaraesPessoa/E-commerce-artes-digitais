@@ -56,7 +56,7 @@ O **E-commerce de Artes Digitais** é uma aplicação web voltada para a **venda
 
 - 📋 Trello
 - 📝 Agenda física
-- 📁PDF's
+- 📁 PDF's
 - 📄 Documentação impressa
 
 ---
