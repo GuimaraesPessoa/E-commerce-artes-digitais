@@ -52,13 +52,13 @@ O **E-commerce de Artes Digitais** é uma aplicação web voltada para a **venda
 - 🐙 Git + GitHub
 - 📮 Postman
 
-### Gerenciamento do projeto
+## Gerenciamento do projeto
 
-## 📋 Trello
+### 📋 Trello
 Será utilizado para organização das tarefas, sprints, prioridades e
 acompanhamento do desenvolvimento
 
-## 📄 Documentação
+### 📄 Documentação
 Agenda física do projeot, PDF's e arquivos impressos
 
 ---
