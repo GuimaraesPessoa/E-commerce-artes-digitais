@@ -22,12 +22,24 @@
             </button>
         </form>
 
-        <nav class="navegacao">
-            <a href="#" class="link-conta">Cadastrar | Entrar</a>
-            <a href="pages/carrinho.html" class="link-carrinho">
-                Carrinho
+    <nav class="navegacao">
+        <div class="links-conta">
+            <a href="#" class="link-conta" id="abrir-cadastro">
+            Cadastrar
             </a>
-        </nav>
+
+            <span class="separador-conta" aria-hidden="true">|</span>
+
+            <a href="#" class="link-conta" id="abrir-login">
+                Entrar
+            </a>
+        </div>
+
+        <a href="pages/carrinho.html" class="link-carrinho">
+            Carrinho
+        </a>
+    </nav>
+
     </header>
 
     <main>
@@ -156,7 +168,52 @@
         </section>
     </main>
 
+    
+    <!-- Sobreposição com os detalhes da arte -->
+    
+    <div class="sobreposicao" id="modal-arte" aria-hidden="true">
+        <section class="modal-arte" role="dialog"
+            aria-modal="true" aria-labelledby="titulo-arte">
+
+            <button class="botao-fechar" id="fechar-arte"
+                type="button" aria-label="Fechar detalhes da arte">
+                &times;
+            </button>
+
+            <a href="#" class="voltar-loja" id="voltar-loja">
+                &larr; Voltar à loja
+            </a>
+
+            <div class="conteudo-modal-arte">
+                <div class="imagem-detalhe">
+                    <span id="imagem-arte-detalhe">Arte 01</span>
+                </div>
+
+                <div class="informacoes-arte">
+                    <h2 id="titulo-arte">Logo Mecânica</h2>
+
+                    <p class="preco-arte" id="preco-arte">
+                        R$ 29,90
+                    </p>
+
+                    <p id="descricao-arte">
+                        Uma arte digital para dar identidade visual
+                        à sua marca ou ao seu projeto.
+                    </p>
+
+                    <button class="botao-carrinho" id="adicionar-carrinho"
+                        type="button">
+                        Adicionar ao carrinho
+                    </button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
     <!-- Rodapé -->
+
     <footer class="rodape">
         <div>
             <h2>PH Art Design</h2>
@@ -178,6 +235,9 @@
             <a href="pages/carrinho.html">Carrinho</a>
         </div>
     </footer>
+
+    <!-- Arquivo JavaScript da aplicação -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
