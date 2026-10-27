@@ -211,6 +211,112 @@
         </section>
     </div>
 
+    <!-- Modal de Cadastro -->
+    <div class="sobreposicao" id="modal-cadastro" aria-hidden="true">
+        <section
+            class="modal-conta modal-cadastro"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="titulo-cadastro"
+        >
+            <h2 id="titulo-cadastro">Cadastrar</h2>
+
+            <form id="form-cadastro">
+                <input
+                    type="email"
+                    id="cadastro-email"
+                    placeholder="Insira seu email..."
+                    aria-label="E-mail"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="cadastro-senha"
+                    placeholder="Insira uma nova senha..."
+                    aria-label="Nova senha"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="cadastro-usuario"
+                    placeholder="Insira um nome de usuário..."
+                    aria-label="Nome de usuário"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="cadastro-nome"
+                    placeholder="Insira um nome de exibição (Pref. nome e sobrenome)..."
+                    aria-label="Nome de exibição"
+                    required
+                >
+
+                <div class="acoes-conta">
+                    <button type="submit" class="botao-conta">
+                        Cadastrar
+                    </button>
+
+                    <p>
+                        Já tem uma conta?
+                        <a href="#" id="ir-para-login">Entre</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+
+<!-- Modal de Login -->
+    <div class="sobreposicao" id="modal-login" aria-hidden="true">
+        <section
+            class="modal-conta modal-login"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="titulo-login"
+        >
+            <h2 id="titulo-login">Entrar</h2>
+
+            <form id="form-login">
+                <input
+                    type="text"
+                    id="login-identificador"
+                    placeholder="Insira seu email ou nome de usuário..."
+                    aria-label="E-mail ou nome de usuário"
+                    required
+                >
+
+                <input
+                    type="password"
+                    id="login-senha"
+                    placeholder="Insira sua senha..."
+                    aria-label="Senha"
+                    required
+                >
+
+                <div class="separador-login">
+                    <span>Fazer login com</span>
+                </div>
+
+                <button type="button" class="botao-google">
+                    Google
+                </button>
+
+                <div class="acoes-conta">
+                    <button type="submit" class="botao-conta">
+                        Entrar
+                    </button>
+
+                    <p>
+                        Novo na PH?
+                        <a href="#" id="ir-para-cadastro">Cadastre-se</a>
+                    </p>
+                </div>
+            </form>
+        </section>
+    </div>
+    </escape>
 
     <!-- Rodapé -->
 

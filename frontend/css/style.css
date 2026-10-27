@@ -527,3 +527,163 @@ input {
     color: var(--cor-texto-secundario);
     user-select: none;
 }
+
+
+/* ==============================
+   MODAIS DE CADASTRO E LOGIN
+   ============================== */
+
+   .modal-conta {
+    width: 100%;
+    max-width: 520px;
+    padding: 24px;
+    background-color: var(--cor-branca);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.modal-conta h2 {
+    margin: 0 0 24px;
+    color: var(--cor-principal);
+    font-size: 24px;
+    text-align: center;
+}
+
+.modal-conta form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal-conta input {
+    width: 100%;
+    height: 35px;
+    padding: 0 6px;
+    border: 1px solid var(--cor-principal);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 11px;
+    outline: none;
+}
+
+.modal-conta input:focus {
+    border-color: var(--cor-escura);
+    box-shadow: 0 0 0 2px rgb(0 191 174 / 12%);
+}
+
+.modal-conta input::placeholder {
+    color: #a0a0a0;
+}
+
+.acoes-conta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.acoes-conta p {
+    margin: 0;
+    font-size: 11px;
+    text-align: right;
+}
+
+.acoes-conta a {
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+.acoes-conta a:hover {
+    text-decoration: underline;
+}
+
+.botao-conta {
+    width: 42%;
+    min-height: 25px;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.botao-conta:hover,
+.botao-google:hover {
+    background-color: var(--cor-escura);
+}
+
+/* Ajustes específicos do Cadastro */
+
+.modal-cadastro {
+    max-width: 520px;
+}
+
+.modal-cadastro .acoes-conta {
+    margin-top: 24px;
+}
+
+/* Ajustes específicos do Login */
+
+.modal-login {
+    max-width: 520px;
+}
+
+.separador-login {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 auto;
+    color: var(--cor-secundaria);
+    font-size: 11px;
+}
+
+.separador-login::before,
+.separador-login::after {
+    content: "";
+    width: 65px;
+    height: 1px;
+    background-color: #cccccc;
+}
+
+.botao-google {
+    width: 100%;
+    min-height: 35px;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    font-family: inherit;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.modal-login .acoes-conta {
+    margin-top: 24px;
+}
+
+/* Responsividade dos modais */
+
+@media (max-width: 600px) {
+    .modal-conta {
+        padding: 20px;
+    }
+
+    .acoes-conta {
+        flex-wrap: wrap;
+    }
+
+    .botao-conta {
+        width: 100%;
+    }
+
+    .acoes-conta p {
+        width: 100%;
+        text-align: center;
+    }
+}
