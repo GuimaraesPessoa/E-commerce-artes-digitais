@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carrinho | PH Art Design</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <a href="../index.html" class="logo">PH Art Design</a>
+
+        <span class="separador-cabecalho">|</span>
+
+        <h2 class="titulo-carrinho">Carrinho</h2>
+
+        <form class="busca-carrinho" role="search">
+            <input
+                type="search"
+                id="busca-produto"
+                placeholder="Buscar produto..."
+                aria-label="Buscar produto"
+            >
+
+            <button type="submit" aria-label="Buscar">
+                &#9906;
+            </button>
+        </form>
+
+        <a href="../index.html" class="link-conta">
+            <span aria-hidden="true">&#9786;</span>
+            Cadastrar&nbsp; | &nbsp;Entrar
+        </a>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="pagina-carrinho">
+
+        <h1 class="titulo-principal-carrinho">
+            Seu carrinho de compras
+        </h1>
+
+        <div class="conteudo-carrinho">
+
+            <!-- Lista de produtos -->
+            <section
+                id="lista-carrinho"
+                class="lista-carrinho"
+                aria-label="Produtos adicionados ao carrinho"
+            >
+
+                <!-- Exemplo de estrutura de um produto.
+                     O JavaScript poderá gerar estes elementos dinamicamente. -->
+                <article class="item-carrinho">
+
+                    <input
+                        type="checkbox"
+                        class="selecionar-produto"
+                        aria-label="Selecionar Logo Mecânica"
+                        checked
+                    >
+
+                    <div class="imagem-produto-carrinho">
+                        <img
+                            src="../images/logo-mecanica.png"
+                            alt="Logo Mecânica"
+                        >
+                    </div>
+
+                    <h2 class="nome-produto-carrinho">
+                        Logo Mecânica
+                    </h2>
+
+                    <p class="preco-produto-carrinho">
+                        R$ 29,90
+                    </p>
+
+                    <button
+                        type="button"
+                        class="remover-produto"
+                    >
+                        Remover
+                    </button>
+
+                </article>
+
+            </section>
+
+            <!-- Resumo do pedido -->
+            <aside class="resumo-carrinho">
+
+                <h2>Total do Carrinho</h2>
+
+                <div
+                    id="itens-resumo-carrinho"
+                    class="itens-resumo-carrinho"
+                >
+                    <!-- O JavaScript listará os produtos selecionados. -->
+                </div>
+
+                <div class="linha-subtotal">
+                    <span>Subtotal:</span>
+                    <span id="subtotal-carrinho">R$ 0,00</span>
+                </div>
+
+                <div class="linha-total">
+                    <strong>Total:</strong>
+                    <strong id="total-carrinho">R$ 0,00</strong>
+                </div>
+
+                <button
+                    type="button"
+                    id="botao-checkout"
+                    class="botao-checkout"
+                >
+                    Checkout
+                </button>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+
+        <a href="#">ATENDIMENTO AO CLIENTE</a>
+        <a href="#">SOBRE A PH ART DESIGN</a>
+        <a href="#">PAGAMENTO</a>
+        <a href="#">CONTATE-NOS</a>
+
+    </footer>
+
+    <script src="../js/carrinho.js"></script>
+
+</body>
+</html>
